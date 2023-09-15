@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#07F8E0"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity"
+
+
+    >
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/b"
+        android:scaleType="fitCenter"
+
+
+        />
+
+
+    <Button
+        android:id="@+id/showImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Image"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/hideImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hide Image"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/buttonTost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Me"
+
+        />
+
+    <TextView
+        android:id="@+id/textViewNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi Boss,Click Me"
+        android:paddingTop="10dp"
+        android:textSize="20dp"
+        android:background="#ffffff"
+
+
+
+        />
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+
+        />
+
+</LinearLayout>
